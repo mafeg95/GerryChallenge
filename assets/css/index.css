@@ -157,3 +157,17 @@ body{
     width: 94%;
     margin-right: 20%;
 }
+
+.building-wrapper{
+    padding-left: 5%;
+}
+
+.building-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.building-h2{
+    margin-bottom: 0;
+}
