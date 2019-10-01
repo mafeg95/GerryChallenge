@@ -58,10 +58,6 @@ body{
     width: 45%;
 }
 
-.notes-h3{
-    padding-left: 5%;
-}
-
 .notes-container{
     display: flex;
     background: #01002D;
@@ -110,8 +106,8 @@ body{
     margin: 0 2%;
 }
 
-.overview-h3{
-    padding-left: 4%;
+.overview-h3, .images-h3, .notes-h3{
+    padding-left: 5%;
 }
 
 .position-container{
@@ -129,7 +125,7 @@ body{
     margin-left: 3%;
 }
 
-.position-h3{
+.position-h2{
     margin-bottom: 0;
 }
 
@@ -154,3 +150,4 @@ body{
 .description-h2{
     margin: 0;
 }
+
