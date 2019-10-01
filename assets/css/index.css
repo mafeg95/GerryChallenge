@@ -1,0 +1,58 @@
+.logo{
+    height: 7%;
+}
+
+.header{
+    
+}
+
+.top-img-container{
+    overflow-x: hidden;
+}
+
+.div-break{
+    text-align: center;
+}
+
+.border{
+    width: 95%;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+.info-wrapper{
+    display: flex;
+    padding-left: 3%;
+}
+
+
+.info{
+    width: 75%;
+}
+
+.info-button-wrapper{
+    margin-bottom: 5%;
+}
+
+.book-button{
+    padding: 3% 13%;
+    background-color: #16E7CF;
+    color: #ffffff;
+    margin-right: 5%;
+    border: none;
+}
+
+.fav-button{
+    padding: 3% 13%;
+    background-color: #01002D;
+    color: #ffffff;
+    border: none;
+}
+
+.info-container{
+    margin-right: 10%;
+}
+
+.notes-wrapper{
+    padding-left: 3%;
+}
