@@ -135,6 +135,7 @@ body{
 
 .description-wrapper{
     width: 70%;
+    margin-right: 1%;
 }
 
 .extra-info-container{
@@ -151,3 +152,8 @@ body{
     margin: 0;
 }
 
+.gallery{
+    margin: 0 3% 3% 3%;
+    width: 94%;
+    margin-right: 20%;
+}
