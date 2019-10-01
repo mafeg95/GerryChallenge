@@ -20,7 +20,7 @@ body{
 
 .border{
     width: 95%;
-    border-top: 1px solid grey;
+    border-top: 1px solid #F2F2F2;
     display: inline-block;
 }
 
@@ -38,18 +38,21 @@ body{
     margin-bottom: 5%;
 }
 
-.book-button{
-    padding: 3% 13%;
-    background-color: #16E7CF;
+.fav-button, .book-button{
+    padding: 3% 12%;
     color: #ffffff;
-    margin-right: 5%;
     border: none;
+    font-size: .80em;
+    font-weight: 600;
+}
+
+.book-button{
+    background-color: #16E7CF;
+    margin-right: 5%;
 }
 
 .fav-button{
-    padding: 3% 13%;
     background-color: #01002D;
-    color: #ffffff;
     border: none;
 }
 
@@ -159,7 +162,7 @@ body{
 }
 
 .building-wrapper{
-    padding-left: 5%;
+    padding: 0 4%;
 }
 
 .building-container{
@@ -169,5 +172,34 @@ body{
 }
 
 .building-h2{
-    margin-bottom: 0;
+    margin-bottom: 2%;
+}
+
+.facts-wrapper{
+    width: 25%;
+    border: 0.5px solid #F2F2F2;
+    border-radius: 4px;
+}
+
+.facts-h3, .facts-p{
+    padding: 8% 10%;
+    margin: 0;
+    border-bottom: 0.5px solid #F2F2F2;
+}
+
+.facts-p:last-child{   
+    border-bottom: none;
+}
+
+.facts-p:hover{
+    cursor: pointer;
+}
+
+.view-more{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border: 1px solid #F2F2F2;
+    margin: 2%;
+    border-radius: 3px;
 }
