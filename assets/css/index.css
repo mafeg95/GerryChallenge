@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .logo{
     height: 7%;
 }
@@ -22,7 +26,7 @@
 
 .info-wrapper{
     display: flex;
-    padding-left: 3%;
+    padding-left: 5%;
 }
 
 
@@ -51,8 +55,102 @@
 
 .info-container{
     margin-right: 10%;
+    width: 45%;
 }
 
-.notes-wrapper{
+.notes-h3{
+    padding-left: 5%;
+}
+
+.notes-container{
+    display: flex;
+    background: #01002D;
+    color: #ffffff;
+    margin: 0 3%;
+    padding: 3% 0;
+    box-shadow: 3px 3px 4px 2px rgba(143,143,143,1);
+}
+
+.profile-pic{
+    width: 55%;
+}
+
+.profile-img-wrapper{
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-date{
+    font-size: 12px;
+}
+
+.notes-p{
+    width: 95%;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.notes-p-container{
+    padding-left: 1%;
+    width: 100%;
+}
+
+.notes-button{
+    color: #16E7CF;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 0.5%;
+}
+
+.overview-container{
+    display: flex;
+    margin: 0 2%;
+}
+
+.overview-h3{
+    padding-left: 4%;
+}
+
+.position-container{
+    display: flex;
+    width: 50%;
     padding-left: 3%;
+    height: 50%;
+}
+
+.profile-img{
+    height: 30%;
+}
+
+.position-wrapper{
+    margin-left: 3%;
+}
+
+.position-h3{
+    margin-bottom: 0;
+}
+
+.position-p{
+    margin: 5% 0;
+}
+
+.description-wrapper{
+    width: 70%;
+}
+
+.extra-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description-p{
+    line-height: 1.25;
+}
+
+.description-h2{
+    margin: 0;
 }
