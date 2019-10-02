@@ -1,5 +1,23 @@
 body{
     overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-weight: 900;
+}
+.top-h3-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2% 2%;
+}
+
+.fa-long-arrow-alt-left{
+    margin-right: 1.5%;
+}
+
+.top-h3{
+    margin: 0;
 }
 
 .logo{
@@ -7,7 +25,7 @@ body{
 }
 
 .header{
-    
+    padding: 2%;
 }
 
 .top-img-container{
@@ -42,8 +60,8 @@ body{
     padding: 3% 12%;
     color: #ffffff;
     border: none;
-    font-size: .80em;
-    font-weight: 600;
+    font-size: 0.75em;
+    font-weight: 700;
 }
 
 .book-button{
@@ -52,18 +70,18 @@ body{
 }
 
 .fav-button{
-    background-color: #01002D;
+    background-color: #082B44;
     border: none;
 }
 
 .info-container{
     margin-right: 10%;
-    width: 45%;
+    width: 50%;
 }
 
 .notes-container{
     display: flex;
-    background: #01002D;
+    background: #082B44;
     color: #ffffff;
     margin: 0 3%;
     padding: 3% 0;
@@ -89,6 +107,7 @@ body{
     width: 95%;
     line-height: 1.5;
     margin-top: 0;
+    font-style: italic;
 }
 
 .notes-p-container{
@@ -202,4 +221,9 @@ body{
     border: 1px solid #F2F2F2;
     margin: 2%;
     border-radius: 3px;
+}
+
+footer{
+    height: 25%;
+    background-color: #082B44;
 }
